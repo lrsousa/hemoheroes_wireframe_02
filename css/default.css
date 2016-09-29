@@ -1,0 +1,89 @@
+ .fundo-cabecalho {
+     background-color: #c9daf8;
+     padding: 26px 10px;
+     font-size: 1.5em;
+     text-align: left;
+ }
+
+ .painel-um {
+     right: 25px;
+ }
+
+.container {
+    width: 1350px;
+}
+
+.alinhamento {
+    padding: 26px 10px;
+    font-size: 1.5em;
+}
+
+.recubo {
+    padding-top: 25px;
+}
+
+.fundo-recubo {
+    background-color: white;
+    right: 25px;
+}
+
+.fundo-recubo-direita {
+    background-color: white;
+    padding-bottom: 35px;
+}
+
+.fundo-recubo-direita > p {
+    font-size: 1.6em;
+    margin-top: 35px;
+}
+
+#data-atualizacao {
+    margin-top: 45px;
+}
+
+#intro {
+    background-color: #efefef;
+}
+
+.input-lg {
+    height: 65px;
+}
+
+.form-group > label {
+    padding-top: 15px;
+}
+
+.recubo-form-esquerda {
+    margin-top: 125px;
+    padding-left: 35px;
+}
+
+#lista-doadores-solicitados {
+    border-right: 2px solid black;
+    margin-right: -34px;
+}
+
+#lista-doadores-solicitados > li {
+    font-size: 1.4em;
+    list-style: none;
+}
+
+
+.modal-body {
+    position: relative;
+    overflow-y: auto;
+    max-height: 400px;
+    padding: 15px;
+}
+
+.modal-body p {
+    font-size: 1.4em;
+    text-align: center;
+}
+.modal-header {
+    background-color: #c9daf8;
+}
+
+.modal-header h3 {
+    margin-top: 24px;
+}

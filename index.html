@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Hemo Heroes</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+    <link href="css/default.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Hemo Heroes</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#">Sobre</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#">Serviços</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 painel-um">
+                    <div class="col-md-12 fundo-cabecalho">
+                        <div class="col-md-2">
+                            <img src="img/001.png"/>
+                        </div>
+                        <div class="col-md-10">
+                            <h3>Insira a quantidade necessária de bolsas de sangue para cada tipo sanguíneo:</h3>
+                        </div>
+                    </div>
+
+                    <form id="formulario-doadores" class="form-horizontal recubo-form-esquerda fundo-recubo alinhamento">
+                        <div class="">
+                            <div class="form-group row">
+                                <label for="a-positivo" class="col-md-1 col-form-label">A+</label>
+                                <div class="col-md-2">
+                                    <input data-value="A+" class="form-control input-lg" type="number" value="" id="a-positivo">
+                                </div>
+                                <label for="a-positivo" class="col-md-1 col-form-label">bolsas</label>
+
+                                <label for="a-negativo" class="col-md-1 col-md-offset-2 col-form-label">A-</label>
+                                <div class="col-md-2">
+                                    <input data-value="A-" class="form-control input-lg" type="number" value="" id="a-negativo">
+                                </div>
+                                <label for="a-negativo" class="col-md-1 col-form-label">bolsas</label>
+                            </div>
+
+                            <div class="form-group row recubo">
+                                <label for="b-positivo" class="col-md-1 col-form-label">B+</label>
+                                <div class="col-md-2">
+                                    <input data-value="B+" class="form-control input-lg" type="number" value="" id="b-positivo">
+                                </div>
+                                <label for="b-positivo" class="col-md-1 col-form-label">bolsas</label>
+
+                                <label for="b-negativo" class="col-md-1 col-md-offset-2 col-form-label">B-</label>
+                                <div class="col-md-2">
+                                    <input data-value="B-" class="form-control input-lg" type="number" value="" id="b-negativo">
+                                </div>
+                                <label for="b-negativo" class="col-md-1 col-form-label">bolsas</label>
+                            </div>
+
+                            <div class="form-group row recubo">
+                                <label for="ab-positivo" class="col-md-1 col-form-label">AB+</label>
+                                <div class="col-md-2">
+                                    <input data-value="AB+" class="form-control input-lg" type="number" value="" id="ab-positivo">
+                                </div>
+                                <label for="ab-positivo" class="col-md-1 col-form-label">bolsas</label>
+
+                                <label for="ab-negativo" class="col-md-1 col-md-offset-2 col-form-label">AB-</label>
+                                <div class="col-md-2">
+                                    <input data-value="AB-" class="form-control input-lg" type="number" value="" id="ab-negativo">
+                                </div>
+                                <label for="ab-negativo" class="col-md-1 col-form-label">bolsas</label>
+                            </div>
+
+                            <div class="form-group row recubo">
+                                <label for="o-positivo" class="col-md-1 col-form-label">O+</label>
+                                <div class="col-md-2">
+                                    <input data-value="O+" class="form-control input-lg" type="number" value="" id="o-positivo">
+                                </div>
+                                <label for="o-positivo" class="col-md-1 col-form-label">bolsas</label>
+
+                                <label for="o-negativo" class="col-md-1 col-md-offset-2 col-form-label">O-</label>
+                                <div class="col-md-2">
+                                    <input data-value="O-" class="form-control input-lg" type="number" value="" id="o-negativo">
+                                </div>
+                                <label for="o-negativo" class="col-md-1 col-form-label">bolsas</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-md-5">
+                    <div class="col-md-12 fundo-cabecalho">
+                        <div class="col-md-3">
+                            <img src="img/002.png"/>
+                        </div>
+                        <div class="col-md-9">
+                            <h3 class="">Solicitar Doações</h3>
+                        </div>
+                    </div>
+                    <div class="fundo-recubo-direita col-md-12">
+                        <p>
+                            Após informar a quantidade de doadores para cada tipo sanguíneo, clique aqui para continuar o pedido de solicitação.
+                        </p>
+                        <button id="btn-solicitar-doadores" type="submit" class="btn-lg btn-success">Avançar</button>
+                    </div>
+                    <div class="col-md-10">
+                        <p id="data-atualizacao">
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="col-md-2">
+                            <img src="img/003.png"/>
+                        </div>
+                        <div class="col-md-8">
+                            <h3 class="modal-title">Confirmar Solicitação</h3>
+                        </div>
+                </div>
+                <div class="modal-body">
+                    <h3>Doadores Solicitados</h3>
+                    <div class="col-md-5">
+                        <ul id="lista-doadores-solicitados">
+
+                        </ul>
+                    </div>
+                    <div class="col-md-7">
+                        <p>
+                            Enviar solicitação para os doadores dos tipos sanguíneos necessários?
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div id="botoes-confirmar">
+                        <button type="button" class="btn-lg btn-default" data-dismiss="modal">Cancelar</button>
+                        <button id="confirmar-requisicao-doadores" type="button" class="btn-lg btn-success">Confirmar</button>
+                    </div>
+
+                    <div id="botoes-fechar" style="display: none;">
+                        <button id="btn-fechar-confirmacao-doacao" type="button" class="btn-lg btn-success" data-dismiss="modal">Confirmar</button>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+    <script>
+        window.onload = function() {
+            var d = new Date();
+            d.setDate(d.getDate() - 2);
+            $("#data-atualizacao").html("Ultima atualização: " + d.toLocaleString());
+        };
+
+        $("#btn-solicitar-doadores").on('click', function() {
+            var lista = [];
+            $("#formulario-doadores input").each(function() {
+                if($(this).val() && $(this).val() > 0) {
+                    lista.push("<li>" + $(this).val() + " do tipo " + $(this).attr('data-value') + "</li>");
+                }
+            });
+            if(lista.length > 0) {
+                $("#lista-doadores-solicitados").html(lista);
+                $("#myModal").modal({ keyboard: false , "backdrop" : "static"});
+            } else {
+                alert("É preciso selecionar ao menos um doador.")
+            }
+        });
+
+        var _backupConteudoModalBody;
+        $("#confirmar-requisicao-doadores").on("click", function() {
+            var conteudoTextoConfirmacao = "<p>Seu pedido de solicitação foi recebido com sucesso pela equipe do HemoHeroes.</p>"
+            _backupConteudoModalBody = $("#myModal .modal-body").html();
+            $("#myModal .modal-body").html(conteudoTextoConfirmacao);
+            trocarBotoesModal();
+        });
+
+        $("#botoes-fechar button").on("click", function() {
+            if($(this).attr("id") == "btn-fechar-confirmacao-doacao") $("#data-atualizacao").html("Ultima atualização: " + new Date().toLocaleString());
+            $("#myModal .modal-body").html(_backupConteudoModalBody);
+            trocarBotoesModal();
+        });
+
+        function trocarBotoesModal() {
+            $("#botoes-confirmar").toggle();
+            $("#botoes-fechar").toggle();
+        }
+    </script>
+
+</body>
+
+</html>
