@@ -10,7 +10,12 @@
  }
 
 .container {
-    width: 1350px;
+    max-width: 1300px;
+    width: 90%;
+}
+
+.confirmar{
+  border-left: 1px solid black;
 }
 
 .alinhamento {
@@ -58,16 +63,20 @@
     padding-left: 35px;
 }
 
-#lista-doadores-solicitados {
-    border-right: 2px solid black;
-    margin-right: -34px;
-}
 
 #lista-doadores-solicitados > li {
     font-size: 1.4em;
     list-style: none;
 }
 
+#lista-doadores-solicitados{
+    margin: 0;
+    padding: 0;
+}
+
+#btn-fechar-confirmacao-doacao{
+  text-align: center;
+}
 
 .modal-body {
     position: relative;

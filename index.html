@@ -183,12 +183,12 @@
                 </div>
                 <div class="modal-body">
                     <h3>Doadores Solicitados</h3>
-                    <div class="col-md-5">
+                    <div class="col-md-6">
                         <ul id="lista-doadores-solicitados">
 
                         </ul>
                     </div>
-                    <div class="col-md-7">
+                    <div class="col-md-6 confirmar">
                         <p>
                             Enviar solicitação para os doadores dos tipos sanguíneos necessários?
                         </p>
@@ -201,7 +201,9 @@
                     </div>
 
                     <div id="botoes-fechar" style="display: none;">
-                        <button id="btn-fechar-confirmacao-doacao" type="button" class="btn-lg btn-success" data-dismiss="modal">Confirmar</button>
+                        <button id="btn-fechar-confirmacao-doacao" type="button" class="btn-lg btn-success" data-dismiss="modal">
+                          OK
+                        </button>
                     </div>
                 </div>
             </div><!-- /.modal-content -->
@@ -251,12 +253,19 @@
         $("#botoes-fechar button").on("click", function() {
             if($(this).attr("id") == "btn-fechar-confirmacao-doacao") $("#data-atualizacao").html("Ultima atualização: " + new Date().toLocaleString());
             $("#myModal .modal-body").html(_backupConteudoModalBody);
+            limparTodosOsCampos();
             trocarBotoesModal();
         });
 
         function trocarBotoesModal() {
             $("#botoes-confirmar").toggle();
             $("#botoes-fechar").toggle();
+        }
+
+        function limparTodosOsCampos() {
+            $("#formulario-doadores input").each(function() {
+              $(this).val('');
+            });
         }
     </script>
 
